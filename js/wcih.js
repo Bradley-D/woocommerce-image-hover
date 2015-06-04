@@ -5,7 +5,7 @@ jQuery(document).ready(function($) {
 	$(".thumbnails a").hover(
 		// Swap out the main image with the thumb
 		function(){	    	
-	    	var photo_fullsize = $('.thumbnails a').attr('href');
+	    	var photo_fullsize = $(this).attr('href');
 		  	$('.woocommerce-main-image img').attr('src', photo_fullsize);
 	    },
 	    // Return the main image to the original
