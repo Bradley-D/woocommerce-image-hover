@@ -7,7 +7,7 @@ jQuery(document).ready(function($) {
 		function(){	    	
 	    var photo_fullsize = $(this).attr('href');
 		  $('.woocommerce-main-image img').attr('src', photo_fullsize);
-	   },
+	  },
 	  // Return the main image to the original
 	  function(){
 	    $('.woocommerce-main-image img').attr('src', wcih_main_imgage);
