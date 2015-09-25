@@ -2,8 +2,8 @@
 Contributors: Brad Davis
 Tags: woocommerce, woocommerce-image, woocommerce-product-images
 Requires at least: 4.0
-Tested up to: 4.2.2
-Stable tag: 1.0
+Tested up to: 4.3.1
+Stable tag: 1.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -19,7 +19,7 @@ WooCommerce Image Hover simply replaces the main WooCommerce product image with 
 
 = WooCommerce Compatibility =
 
-Tested on 2.3.10
+Tested up to 2.4.7
 
 1. Upload WooCommerce Image Hover to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
@@ -35,6 +35,11 @@ You could visit the Git repo and fork it and make as many changes as you need. A
 
 
 == Changelog ==
+
+= 1.1 =
+* Tested on WordPress 4.3.1
+* Tested on WooCommerce 2.4.7, everything is a ok
+* Refactored jQuery for consistent spacing and use of "" to ''
 
 = 1.0 =
 * Original commit and released to the world
