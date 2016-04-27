@@ -3,7 +3,7 @@
 Plugin Name: WooCommerce Image Hover
 Plugin URI: http://bradley-davis.com/wordpress-plugins/woocommerce-image-hover/
 Description: WooCommerce Image Hover simply replaces the main WooCommerce product image with the thumbnail when you hover over it.
-Version: 1.1
+Version: 1.2
 Author: Bradley Davis
 Author URI: http://bradley-davis.com
 License: GPL3
