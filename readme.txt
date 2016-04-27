@@ -19,7 +19,7 @@ WooCommerce Image Hover simply replaces the main WooCommerce product image with 
 
 = WooCommerce Compatibility =
 
-Tested up to 2.4.7
+Tested up to 2.5.5
 
 1. Upload WooCommerce Image Hover to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
@@ -35,6 +35,11 @@ You could visit the Git repo and fork it and make as many changes as you need. A
 
 
 == Changelog ==
+
+= 1.2 =
+* Tested on WordPress 4.5.1
+* Tested on WooCommerce 2.5.5, everything seems to be in order here
+* Added srcset compatibility - sorry it took so long to get updated
 
 = 1.1 =
 * Tested on WordPress 4.3.1
