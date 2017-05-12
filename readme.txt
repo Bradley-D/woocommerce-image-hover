@@ -35,6 +35,8 @@ You could visit the Git repo and fork it and make as many changes as you need. A
 
 
 == Changelog ==
+= 1.4 =
+* 
 
 = 1.3 =
 * Tested on WordPress 4.6.1
