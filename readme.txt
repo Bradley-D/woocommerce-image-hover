@@ -35,6 +35,13 @@ You could visit the Git repo and fork it and make as many changes as you need. A
 
 == Changelog ==
 
+= 2.0 =
+* Tested on WordPress
+* Tested on WooCommerce
+* Removed theme support for WooCommerce gallery lightbox, zoom and slider so this plugin can work
+* Refactored JS for new WooCommerce 3.0 html
+* Fixed typo in JS var name for original main image
+
 = 1.2 =
 * Tested on WordPress 4.5.1
 * Tested on WooCommerce 2.5.5, everything seems to be in order here
