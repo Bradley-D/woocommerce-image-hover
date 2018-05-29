@@ -73,8 +73,8 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 		 * @since 2.0
 		 */
 		public function w_c_i_h_remove_wc_product_image() {
-			remove_theme_support( 'wc-product-gallery-lightbox' );
-			remove_theme_support( 'wc-product-gallery-zoom' );
+			//remove_theme_support( 'wc-product-gallery-lightbox' );
+			//remove_theme_support( 'wc-product-gallery-zoom' );
 			remove_theme_support( 'wc-product-gallery-slider' );
 		}
 
