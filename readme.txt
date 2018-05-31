@@ -26,7 +26,7 @@ Please Note, if your theme supports WooCommerce Gallery Slider, this functionali
 
 == Frequently Asked Questions ==
 
-= Why doesn't WooCommerce Gallery Slider Work with this plugin? =
+= Why doesn't WooCommerce Gallery Slider work with this plugin? =
 For this plugin to work, the WooCommerce Gallery Slider functionality needs to be removed. The good news is the zoom and lightbox still work if your theme supported them.
 
 = Why doesn't it work with my theme? =
