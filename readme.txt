@@ -2,8 +2,8 @@
 Contributors: Brad Davis
 Tags: woocommerce, woocommerce-image, woocommerce-product-images
 Requires at least: 4.0
-Tested up to: 4.6.1
-Stable tag: 1.3
+Tested up to: 4.5.1
+Stable tag: 2.0
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -11,15 +11,14 @@ WooCommerce Image Hover simply replaces the main WooCommerce product image with 
 
 == Description ==
 
-WooCommerce Image Hover simply replaces the main WooCommerce product image with a thumbnail image when you hover over the thumbnail. When you stop hovering over a thumbnail, the main WooCommerce product image is returned like magic.
-
+WooCommerce Image Hover simply replaces the main WooCommerce product image with the thumbnail image when you hover over a thumbnail. When you stop hovering over a thumbnail, the main WooCommerce product image is returned to the original like magic.
+Please Note, if your theme supports WooCommerce Gallery Slider, this functionality will be disabled for this plugin to work. The good news is the zoom and lightbox functionality will continue to work.
 ** Requires WooCommerce to be installed. **
 
 == Installation ==
 
-= WooCommerce Compatibility =
-
-Tested up to 2.6.8
+= Requires WooCommerce to be installed. =
+= WooCommerce Compatibility Test: v3.4.1 =
 
 1. Upload WooCommerce Image Hover to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
@@ -27,8 +26,11 @@ Tested up to 2.6.8
 
 == Frequently Asked Questions ==
 
+= Why doesn't WooCommerce Gallery Slider Work with this plugin? =
+For this plugin to work, the WooCommerce Gallery Slider functionality needs to be removed. The good news is the zoom and lightbox still work if your theme supported them.
+
 = Why doesn't it work with my theme? =
-The developer of the theme that you are using may have replaced the information (CSS classes) needed for this plugin to work. If theme developers do this, it is impossible to make this plugin work with every theme. WooCommerce Image Hover was built and tested on Storefront by Woo Themes to ensure it works with the standard WooCommerce CSS classes, maybe check out a Woo Theme for your site.
+It is impossible to make this plugin work with every theme as it depends on the html of your theme. WooCommerce Image Hover was built and tested on Storefront by WooCommerce to ensure it works with the standard WooCommerce classes.
 
 = How can I make it work with my theme? =
 You could visit the Git repo and fork it and make as many changes as you need. Alternatively you can hire me to do it for you. :)
@@ -36,9 +38,12 @@ You could visit the Git repo and fork it and make as many changes as you need. A
 
 == Changelog ==
 
-= 1.3 =
-* Tested on WordPress 4.6.1
-* Tested on WooCommerce 2.6.8
+= 2.0 =
+* Tested on WordPress
+* Tested on WooCommerce
+* Removed theme support for WooCommerce gallery lightbox, zoom and slider so this plugin can work
+* Refactored JS for new WooCommerce 3.0 html
+* Fixed typo in JS var name for original main image
 
 = 1.2 =
 * Tested on WordPress 4.5.1
