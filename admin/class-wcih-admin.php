@@ -43,6 +43,7 @@ class Wcih_Admin {
 	 */
 	public function wcih_remove_wc_product_image() {
 		remove_theme_support( 'wc-product-gallery-slider' );
+		remove_theme_support( 'wc-product-gallery-zoom' );
 	}
 }
 
