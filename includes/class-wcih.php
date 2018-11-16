@@ -41,6 +41,7 @@ class Wcih {
 		 * The class responsible for defining all actions that occur on the public-facing side of the site.
 		 */
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'public/class-wcih-public.php';
+
 	}
 }
 
