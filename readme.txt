@@ -3,7 +3,7 @@ Contributors: Brad Davis
 Tags: woocommerce, woocommerce-image, woocommerce-product-images
 Requires at least: 4.0
 Tested up to: 4.9.6
-Stable tag: 2.0
+Stable tag: 3.0
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -37,6 +37,11 @@ You could visit the Git repo and fork it and make as many changes as you need. A
 
 
 == Changelog ==
+
+= 3.0 =
+* WPCS refactor
+* Tested on WordPress 4.9.8
+* Tested on WooCommerce 3.5.1
 
 = 2.0 =
 * Tested on WordPress v4.9.6
